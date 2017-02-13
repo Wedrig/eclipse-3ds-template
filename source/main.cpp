@@ -5,9 +5,9 @@ int main(int argc, char **argv) {
     gfxInitDefault();
     consoleInit(GFX_TOP, NULL);
 
-	printf("Test Eclipse project!");
+	printf("3DS Test");
 
-	printf("\x1b[20;15HPress Start to exit.");
+	printf("\x1b[20;15HPress Start to succ");
 
     while(aptMainLoop()) {
         gspWaitForVBlank();
